@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.e6c13ad2.css",
-    "main.js": "/portfolio/static/js/main.f36a5cf8.js",
-    "static/js/453.ace21015.chunk.js": "/portfolio/static/js/453.ace21015.chunk.js",
-    "static/media/js.mp4": "/portfolio/static/media/js.48b037266f0867eab8eb.mp4",
-    "static/media/react.mp4": "/portfolio/static/media/react.ea402b56fe24306daaea.mp4",
-    "static/media/css.mp4": "/portfolio/static/media/css.4039c9c151c9ab8bbe7c.mp4",
-    "static/media/francis2.png": "/portfolio/static/media/francis2.9ab79e311575dea30b3f.png",
-    "static/media/mobile.webm": "/portfolio/static/media/mobile.714f8d72744e42716e51.webm",
-    "static/media/ui.webm": "/portfolio/static/media/ui.10d22f30020c00d91820.webm",
-    "static/media/git.webm": "/portfolio/static/media/git.38a1a4cd9e8ecb121c63.webm",
-    "static/media/titoColtauco.png": "/portfolio/static/media/titoColtauco.336bfb17c5f29c19a732.png",
-    "static/media/uah.png": "/portfolio/static/media/uah.1b216c14d32a248a0039.png",
-    "static/media/disanCifuentes.png": "/portfolio/static/media/disanCifuentes.38ff6eadd3cabf269a4f.png",
-    "static/media/inacap.png": "/portfolio/static/media/inacap.740f127f3650c77833af.png",
-    "index.html": "/portfolio/index.html",
-    "main.e6c13ad2.css.map": "/portfolio/static/css/main.e6c13ad2.css.map",
-    "main.f36a5cf8.js.map": "/portfolio/static/js/main.f36a5cf8.js.map",
-    "453.ace21015.chunk.js.map": "/portfolio/static/js/453.ace21015.chunk.js.map"
+    "main.css": "/Portfolio/static/css/main.e6c13ad2.css",
+    "main.js": "/Portfolio/static/js/main.b8c98673.js",
+    "static/js/453.ace21015.chunk.js": "/Portfolio/static/js/453.ace21015.chunk.js",
+    "static/media/js.mp4": "/Portfolio/static/media/js.48b037266f0867eab8eb.mp4",
+    "static/media/react.mp4": "/Portfolio/static/media/react.ea402b56fe24306daaea.mp4",
+    "static/media/css.mp4": "/Portfolio/static/media/css.4039c9c151c9ab8bbe7c.mp4",
+    "static/media/francis2.png": "/Portfolio/static/media/francis2.9ab79e311575dea30b3f.png",
+    "static/media/mobile.webm": "/Portfolio/static/media/mobile.714f8d72744e42716e51.webm",
+    "static/media/ui.webm": "/Portfolio/static/media/ui.10d22f30020c00d91820.webm",
+    "static/media/git.webm": "/Portfolio/static/media/git.38a1a4cd9e8ecb121c63.webm",
+    "static/media/titoColtauco.png": "/Portfolio/static/media/titoColtauco.336bfb17c5f29c19a732.png",
+    "static/media/uah.png": "/Portfolio/static/media/uah.1b216c14d32a248a0039.png",
+    "static/media/disanCifuentes.png": "/Portfolio/static/media/disanCifuentes.38ff6eadd3cabf269a4f.png",
+    "static/media/inacap.png": "/Portfolio/static/media/inacap.740f127f3650c77833af.png",
+    "index.html": "/Portfolio/index.html",
+    "main.e6c13ad2.css.map": "/Portfolio/static/css/main.e6c13ad2.css.map",
+    "main.b8c98673.js.map": "/Portfolio/static/js/main.b8c98673.js.map",
+    "453.ace21015.chunk.js.map": "/Portfolio/static/js/453.ace21015.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.f36a5cf8.js"
+    "static/js/main.b8c98673.js"
   ]
 }

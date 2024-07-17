@@ -23,7 +23,7 @@ const InfoBox = styled(Paper)(({ theme }) => ({
   margin: 'auto',
   boxShadow: theme.shadows[5],
   animation: `${fadeIn} 2s ease-in-out`,
-  backgroundColor: 'white', // Fondo blanco
+  backgroundColor: '#ffffff', // Fondo blanco para el contenedor
   display: 'flex',
   padding: 0, // Asegurarse de que no haya padding
   height: 'auto', // Permitir que la altura se ajuste al contenido
@@ -103,7 +103,7 @@ const DeveloperInfo = () => {
         </Grid>
         <Grid item xs={12} md={8}>
           <Box padding={2}>
-            <Typography variant="h4" gutterBottom style={{ fontFamily: 'Lobster, cursive' }}>
+            <Typography variant="h4" gutterBottom>
               Francis Alonso
             </Typography>
             <Typography variant="h6" color="text.secondary" paragraph>
@@ -140,6 +140,6 @@ const DeveloperInfo = () => {
       </Grid>
     </InfoBox>
   );
-};
+}
 
 export default DeveloperInfo;

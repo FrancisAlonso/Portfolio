@@ -4,7 +4,8 @@ import { styled } from '@mui/system';
 import { FaInstagram, FaFacebook, FaSpotify, FaLinkedin, FaGithub, FaWhatsapp } from 'react-icons/fa';
 
 const HeaderContainer = styled(Box)(({ theme }) => ({
-  width: '250px',
+  width: '100%',
+  maxWidth: '250px',
   height: '100vh',
   position: 'fixed',
   top: 0,
@@ -16,6 +17,13 @@ const HeaderContainer = styled(Box)(({ theme }) => ({
   paddingTop: theme.spacing(4),
   paddingLeft: theme.spacing(2),
   paddingRight: theme.spacing(2),
+  [theme.breakpoints.down('sm')]: {
+    position: 'relative',
+    width: '100%',
+    height: 'auto',
+    maxWidth: '100%',
+    padding: theme.spacing(2),
+  },
 }));
 
 const Title = styled(Typography)(({ theme }) => ({
@@ -124,7 +132,7 @@ const Header = () => {
           <Grid item xs={6}>
             <SocialIconButton href="https://www.linkedin.com/in/francis-alonso/" target="_blank" aria-label="LinkedIn">
               <FaLinkedin />
-              <Typography variant="caption">/francis-alonso</Typography>
+              <Typography variant="caption">in/francis-alonso/</Typography>
             </SocialIconButton>
           </Grid>
           <Grid item xs={6}>

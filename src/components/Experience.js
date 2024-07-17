@@ -46,7 +46,7 @@ const experiences = [
 const Experience = () => {
   return (
     <ExperienceContainer id="experience">
-      <Typography variant="h4" gutterBottom align="center" style={{ fontFamily: 'Lobster, cursive' }}>
+      <Typography variant="h4" gutterBottom align="center">
         Experiencia
       </Typography>
       <Grid container spacing={2}>
@@ -54,7 +54,7 @@ const Experience = () => {
           <Grid item xs={12} md={6} key={index}>
             <ExperiencePaper elevation={3}>
               <ExperienceImage src={experience.image} alt={experience.title} />
-              <Typography variant="h6" style={{ fontFamily: 'Lobster, cursive' }}>{experience.title}</Typography>
+              <Typography variant="h6">{experience.title}</Typography>
               <Typography variant="body2" color="textSecondary">
                 {experience.startDate} - {experience.endDate}
               </Typography>

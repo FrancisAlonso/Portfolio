@@ -1,5 +1,5 @@
 import React from 'react';
-import { Typography, Grid, Paper, Box, Button } from '@mui/material';
+import { Typography, Box, Paper, Grid, Button } from '@mui/material';
 import { styled } from '@mui/system';
 import Carousel from 'react-material-ui-carousel'; // Asegúrate de instalar react-material-ui-carousel
 
@@ -60,14 +60,14 @@ const ProjectPaper = styled(Paper)(({ theme }) => ({
 const Projects = () => {
   return (
     <Box my={4} id="projects" sx={{ backgroundColor: '#c8e6c9', padding: 3 }}>
-      <Typography variant="h4" gutterBottom align="center" style={{ fontFamily: 'Lobster, cursive' }}>
+      <Typography variant="h4" gutterBottom align="center">
         Proyectos
       </Typography>
       <Grid container spacing={4} justifyContent="center">
         {projects.map((project, index) => (
           <Grid item key={index} xs={12} sm={6} md={4}>
             <ProjectPaper elevation={3}>
-              <Typography variant="h6" style={{ fontFamily: 'Lobster, cursive' }}>{project.title}</Typography>
+              <Typography variant="h6">{project.title}</Typography>
               <Typography variant="body1" paragraph>
                 {project.description}
               </Typography>

@@ -7,7 +7,7 @@ import reactVideo from '../img/react.mp4'; // Asegúrate de que la ruta sea corr
 import uiVideo from '../img/ui.webm'; // Asegúrate de que la ruta sea correcta
 import jsVideo from '../img/js.mp4'; // Asegúrate de que la ruta sea correcta
 import gitVideo from '../img/git.webm'; // Asegúrate de que la ruta sea correcta
-import mobileVideo from '../img/mobile.webm'; // Asegúrate de que la ruta sea correcta
+import mobileVideo from '../img/mobile.mp4'; // Asegúrate de que la ruta sea correcta
 
 const fadeIn = keyframes`
   from {
